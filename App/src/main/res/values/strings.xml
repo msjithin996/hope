@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Hope</string>
+    <string-array name="Names">
+        <item>Clinz</item>
+        <item>Jobin</item>
+        <item>Jithin</item>
+        <item>Govindan</item>
+        <item>John</item>
+        <item>Justin</item>
+        <item>Veni</item>
+        <item>Alicia</item>
+        <item>Abey</item>
+        <item>Betrant</item>
+        <item>Sona</item>
+        <item>Aleena</item>
+        <item>Jibin</item>
+    </string-array>
+</resources>

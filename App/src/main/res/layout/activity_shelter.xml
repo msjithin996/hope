@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.codewreckor.hope.Shelter">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Form"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/username_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/search_border"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/phon_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/username_form"
+        android:layout_alignLeft="@+id/username_form"
+        android:layout_alignRight="@+id/username_form"
+        android:layout_alignStart="@+id/username_form"
+        android:layout_below="@+id/username_form"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/search_border"
+        android:ems="10"
+        android:hint="Enter Your Phone no."
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/place_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/phon_form"
+        android:layout_alignLeft="@+id/phon_form"
+        android:layout_alignRight="@+id/phon_form"
+        android:layout_alignStart="@+id/phon_form"
+        android:layout_below="@+id/phon_form"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/search_border"
+        android:ems="10"
+        android:hint="Enter Your Place"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/no_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/place_form"
+        android:layout_alignLeft="@+id/place_form"
+        android:layout_alignRight="@+id/place_form"
+        android:layout_alignStart="@+id/place_form"
+        android:layout_below="@+id/place_form"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/search_border"
+        android:ems="10"
+        android:hint="No. of Refugees"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/form_submit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no_form"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/round_button"
+        android:text="Submit" />
+</RelativeLayout>

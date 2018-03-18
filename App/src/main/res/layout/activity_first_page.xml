@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f1"
+    tools:context="com.codewreckor.hope.FirstPage">
+
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="110dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="160dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginStart="38dp"
+        android:src="@drawable/f3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/support"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="65dp" />
+
+    <ImageView
+        android:id="@+id/support"
+        android:layout_width="110dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="160dp"
+        android:layout_marginEnd="42dp"
+        android:src="@drawable/f4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="42dp" />
+
+    <ImageView
+        android:id="@+id/logo_first_page"
+        android:layout_width="229dp"
+        android:layout_height="252dp"
+        android:layout_marginTop="53dp"
+        android:src="@drawable/f2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
